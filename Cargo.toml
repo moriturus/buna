@@ -1,0 +1,19 @@
+[package]
+name = "buna"
+version = "0.1.0"
+authors = ["Henrique Sasaki Yuya <moriturus@alimensir.com>"]
+edition = "2018"
+license = "MIT"
+description = "A tiny *Image Investigating Application* aims at simple to use."
+repository = "https://github.com/moriturus/buna"
+readme = "README.md"
+keywords = ["image", "graphics"]
+categories = ["graphics"]
+documentation = "https://docs.rs/buna"
+
+[dependencies]
+clap = { version = "2.33.0", features = ["yaml"] }
+log = "0.4.8"
+env_logger = "0.7.1"
+image = "0.22.3"
+tokio = { version = "0.2.4", features = ["macros"] }
