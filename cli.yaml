@@ -1,6 +1,6 @@
 name: buna
 author: Henrique Sasaki Yuya <moriturus@alimensir.com>
-version: "0.1.0"
+version: "0.1.1"
 abount: A tiny Image Investigating Application.
 args:
   - input:
