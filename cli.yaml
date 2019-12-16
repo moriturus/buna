@@ -1,0 +1,12 @@
+name: buna
+author: Henrique Sasaki Yuya <moriturus@alimensir.com>
+version: "0.1.0"
+abount: A tiny Image Investigating Application.
+args:
+  - input:
+      short: i
+      long: input
+      value_name: INPUT
+      help: Sets input image file.
+      takes_value: true
+      required: true
